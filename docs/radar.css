@@ -1,5 +1,32 @@
+
+@font-face {
+  font-family: 'Gordita Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Regular'), url('gordita/Gordita Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Bold'), url('gordita/Gordita Bold.woff') format('woff');
+}
+    
+
+@font-face {
+  font-family: 'Gordita Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Medium'), url('gordita/Gordita Medium.woff') format('woff');
+}
+  
+
+      
+  
+
 body {
-  font-family: 'Source Sans Pro', arial, helvetica, sans-serif;
+  font-family: 'Gordita Medium','Source Sans Pro', arial, helvetica, sans-serif;
   padding-bottom: 50px;
 }
 h3 {
