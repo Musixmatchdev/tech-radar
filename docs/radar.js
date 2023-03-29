@@ -446,3 +446,22 @@ function radar_visualization(config) {
     .force("collision", d3.forceCollide().radius(12).strength(0.85))
     .on("tick", ticked);
 }
+
+function readTextFile(file, callback) {
+  var rawFile = new XMLHttpRequest();
+  rawFile.overrideMimeType("application/json");
+  rawFile.open("GET", file, true);
+  rawFile.onreadystatechange = function() {
+      if (rawFile.readyState === 4 && rawFile.status == "200") {
+          callback(rawFile.responseText);
+      }
+  }
+  rawFile.send(null);
+}
+
+//usage:
+readTextFile("./techs.json", function(text){
+  var data = JSON.parse(text);
+
+  radar_visualization(data);
+});
