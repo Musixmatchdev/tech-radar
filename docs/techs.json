@@ -1,0 +1,298 @@
+{
+    "svg_id": "radar",
+    "width": 1450,
+    "height": 1000,
+    "colors": {
+        "background": "#fff",
+        "grid": "#bbb",
+        "inactive": "#ddd"
+    },
+    "title": "Musixmatch Tech Radar — 2021.03",
+    "quadrants": [
+        {
+            "name": "Languages"
+        },
+        {
+            "name": "Infrastructure"
+        },
+        {
+            "name": "Frameworks"
+        },
+        {
+            "name": "Data Management"
+        }
+    ],
+    "rings": [
+        {
+            "name": "ADOPT",
+            "color": "#93c47d"
+        },
+        {
+            "name": "TRIAL",
+            "color": "#93d2c2"
+        },
+        {
+            "name": "ASSESS",
+            "color": "#fbdb84"
+        },
+        {
+            "name": "HOLD",
+            "color": "#efafa9"
+        }
+    ],
+    "print_layout": true,
+    "entries": [
+        {
+            "quadrant": 3,
+            "ring": 3,
+            "label": "AWS EMR",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "AWS Redshift",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 1,
+            "label": "AWS Data Pipeline",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "AWS S3",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Elasticsearch",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "Redis",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 1,
+            "label": "AWS DynamoDB",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "CouchBase",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "AWS Elasticache",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 3,
+            "label": "MongoDB",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "AWS RDS",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "Node.js",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 0,
+            "label": "React",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 1,
+            "label": "Apollo (GraphQL)",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 1,
+            "label": "AWS AppSync",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 1,
+            "label": "Next.js",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 1,
+            "label": "OpenNLP",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 1,
+            "label": "React Native",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 2,
+            "ring": 1,
+            "label": "TensorFlow",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Azure DevOps",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Docker",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Kubernetes",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Nginx",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 1,
+            "ring": 0,
+            "label": "Helm",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 1,
+            "ring": 2,
+            "label": "Cloud-init",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 1,
+            "ring": 1,
+            "label": "AWS Lambda",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 0,
+            "ring": 0,
+            "label": "PHP",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 0,
+            "ring": 0,
+            "label": "JavaScript",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 0,
+            "ring": 0,
+            "label": "Java",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 0,
+            "ring": 0,
+            "label": "Python",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 0,
+            "ring": 3,
+            "label": "Perl",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 0,
+            "ring": 1,
+            "label": "GraphQL",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 0,
+            "ring": 0,
+            "label": "TypeScript",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "AWS SNS",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 0,
+            "label": "AWS SQS",
+            "active": false,
+            "moved": 0
+        },
+        {
+            "quadrant": 3,
+            "ring": 2,
+            "label": "AWS AmazonMQ",
+            "active": false,
+            "moved": 0
+        }
+    ]
+}

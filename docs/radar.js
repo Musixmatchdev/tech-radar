@@ -446,3 +446,10 @@ function radar_visualization(config) {
     .force("collision", d3.forceCollide().radius(12).strength(0.85))
     .on("tick", ticked);
 }
+
+function init() {
+  fetch('./techs.json')
+  .then(response => radar_visualization(response.json()))
+}
+
+init();
