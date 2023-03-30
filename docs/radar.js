@@ -448,8 +448,10 @@ function radar_visualization(config) {
 }
 
 function init() {
-  fetch('./techs.json')
-  .then(response => radar_visualization(response.json()))
+  fetch('https://musixmatchdev.github.io/tech-radar/techs.json')
+  .then(response => response.json())
+  .then(data => radar_visualization(data))
+  .catch(error => console.log(error));
 }
 
 init();
